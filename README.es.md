@@ -19,7 +19,8 @@ El código de la aplicación está incompleto, la idea es completarlo teniendo e
 
         En el método `__init__`, la clase inicializa los atributos `type` y `copies` con los valores recibidos como parámetros.
     - La clase debe tener un atributo `date` de tipo `datetime` que debe inicializarse con la fecha y hora actual 
-        > **Sugerencia:** puedes usar la función `datetime.now()` para obtener la fecha y hora actual.
+        > **Pista:** puedes usar la función `datetime.now()` para obtener la fecha y hora actual. Para usar la función, 
+        debes importar el módulo `datetime` con la instrucción `from datetime import datetime`.
 
 2. Completa la clase `Disc` teniendo en cuenta los siguientes requisitos:
     - La clase debe tener un método `__init__` que reciba los siguientes parámetros:

@@ -18,7 +18,9 @@ The application code is incomplete, the idea is to complete it taking into accou
         - `copies` of type `int`.
 
         In the `__init__` method the class should initialize the attributes `type` and `copies` with the values received as parameters.
-    - The class should have an attribute `date` of type `datetime` that should be initialized with the current date and time (you can use the `datetime.now()` function to get the current date an time).
+    - The class should have an attribute `date` of type `datetime` that should be initialized with the current date and time.
+        > **Hint:** you could use the `datetime.now()` function to get the current date and time. To use the function, you should 
+        import the `datetime` module with the statement `from datetime import datetime`.
 
 2. Complete the `Disc` class taking into account the following requirements:
     - The class should have an `__init__` method that receives the following parameters:
